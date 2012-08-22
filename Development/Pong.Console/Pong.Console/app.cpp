@@ -1,9 +1,6 @@
 #include "stdafx.h"
 #include "app.h"
 
-#ifndef APP_H
-#define APP_H
-
 App::App() {
 	HWND hWnd = GetConsoleWindow();
 	ShowWindow(hWnd,SW_SHOWMAXIMIZED);   
@@ -16,6 +13,13 @@ App::App() {
 	// Remember how things were when we started
 	GetConsoleScreenBufferInfo(_output, &_buffer );
 }
+
+
+
+void App::Run() {
+
+}
+
 
 int App::getColor(bool red, bool green, bool blue, bool alpha) {
 		return (green? FOREGROUND_GREEN : 0) | (red? FOREGROUND_RED : 0) | (blue? FOREGROUND_BLUE : 0) | (alpha? FOREGROUND_INTENSITY : 0);
@@ -55,5 +59,3 @@ void App::Seize() {
 	// Keep users happy
 	SetConsoleTextAttribute( _output, _buffer.wAttributes );
 }
-
-#endif

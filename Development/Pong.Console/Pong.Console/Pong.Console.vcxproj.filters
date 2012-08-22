@@ -13,30 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{014913db-2bd4-4cde-b7ab-a8d822a1f481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{dc0bed1f-8fb6-4904-8cab-731a69b82e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{cbceb5e8-5d32-4912-9117-ba982c592902}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="renderer.h">
+      <Filter>View</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="rect.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2d.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="size.h">
+      <Filter>Model</Filter>
     </ClInclude>
     <ClInclude Include="app.h">
-      <Filter>Header Files</Filter>
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="renderer.cpp">
+      <Filter>View</Filter>
     </ClCompile>
-    <ClCompile Include="Pong.Console.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="rect.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="size.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2d.cpp">
+      <Filter>Model</Filter>
     </ClCompile>
     <ClCompile Include="app.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Pong.Console.cpp">
+      <Filter>Controller</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

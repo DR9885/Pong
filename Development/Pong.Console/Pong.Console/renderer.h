@@ -1,28 +1,22 @@
-#include "stdafx.h"
-
 #pragma once
-#ifndef APP_H
-#define APP_H
+#ifndef RENDERER_H
+#define RENDERER_H
 
-class App {
+class Renderer {
 private: 
-	HANDLE _input;
 	HANDLE _output;
 	WORD _foreground;
 	WORD _background;
 
 	CONSOLE_SCREEN_BUFFER_INFO _buffer;
 
-	int getColor(bool red, bool green, bool blue, bool alpha);
-
-public:
-	App();
-
 	void SetBackground(COLOR _color);
 	void SetForeground(COLOR _color);
 
-	void Seize();
-	void Run();
+public:
+	Renderer();
+
+	static void Draw(char c, rect<int> shape, COLOR background, COLOR foreground);
 };
 
 #endif
