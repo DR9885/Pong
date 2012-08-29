@@ -1,0 +1,16 @@
+﻿Build started 8/28/2012 9:53:23 PM.
+     1>Project "C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\ALL_BUILD.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/drossi/Documents/GitHub/Pong/Development/Box2D_v2.2.1/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild".
+         Touching "Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\ALL_BUILD.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85
