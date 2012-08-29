@@ -1,5 +1,5 @@
-﻿Build started 8/28/2012 8:10:49 PM.
-     1>Project "C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\Box2D\Box2D.vcxproj" on node 4 (rebuild target(s)).
+﻿Build started 8/28/2012 9:52:08 PM.
+     1>Project "C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\Box2D\Box2D.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Box2D.dir\Debug\Box2D.lastbuildstate".
        InitializeBuildStatus:
@@ -113,4 +113,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:14.13
+Time Elapsed 00:00:10.13

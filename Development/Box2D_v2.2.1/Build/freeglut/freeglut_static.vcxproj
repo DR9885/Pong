@@ -49,27 +49,28 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freeglut_static.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freeglut_static</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freeglut_static.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freeglut_static</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freeglut_static.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freeglut_static</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freeglut_static.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freeglut_static</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freeglut_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freeglut_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freeglut_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\drossi\Documents\GitHub\Pong\Development\Box2D_v2.2.1\Build\freeglut\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freeglut_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
@@ -112,7 +113,8 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_EXPORTS;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>Release</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -142,7 +144,8 @@
       <Optimization>MinSpace</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_EXPORTS;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -249,35 +252,30 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\..\freeglut\freeglut.h" />
     <ClInclude Include="..\..\freeglut\freeglut_ext.h" />
     <ClInclude Include="..\..\freeglut\freeglut_std.h" />
-    <ClCompile Include="..\..\freeglut\freeglut_callbacks.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_cursor.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_display.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_ext.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_font_data.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_font.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_gamemode.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_geometry.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_glutfont_definitions.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_init.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_input_devices.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_joystick.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_main.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_menu.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_misc.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_overlay.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_spaceball.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_state.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_stroke_mono_roman.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_stroke_roman.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_structure.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_teapot.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_videoresize.c"  />
-    <ClCompile Include="..\..\freeglut\freeglut_window.c"  />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:/Users/drossi/Documents/GitHub/Pong/Development/Box2D_v2.2.1/Build/ZERO_CHECK.vcxproj">
-      <Project>11B51105-12F0-4E30-AA74-6F5B11515212</Project>
-    </ProjectReference>
+    <ClCompile Include="..\..\freeglut\freeglut_callbacks.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_cursor.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_display.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_ext.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_font_data.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_font.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_gamemode.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_geometry.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_glutfont_definitions.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_init.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_input_devices.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_joystick.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_main.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_menu.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_misc.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_overlay.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_spaceball.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_state.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_stroke_mono_roman.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_stroke_roman.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_structure.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_teapot.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_videoresize.c" />
+    <ClCompile Include="..\..\freeglut\freeglut_window.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

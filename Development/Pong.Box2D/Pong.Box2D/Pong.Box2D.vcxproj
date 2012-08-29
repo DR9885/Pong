@@ -11,7 +11,59 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\HelloWorld.cpp" />
+    <ClCompile Include="src\Framework\Main.cpp" />
+    <ClCompile Include="src\Framework\Render.cpp" />
+    <ClCompile Include="src\Framework\Test.cpp" />
+    <ClCompile Include="src\Tests\TestEntries.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Framework\Render.h" />
+    <ClInclude Include="src\Framework\Test.h" />
+    <ClInclude Include="src\Tests\AddPair.h" />
+    <ClInclude Include="src\Tests\ApplyForce.h" />
+    <ClInclude Include="src\Tests\BodyTypes.h" />
+    <ClInclude Include="src\Tests\Breakable.h" />
+    <ClInclude Include="src\Tests\Bridge.h" />
+    <ClInclude Include="src\Tests\BulletTest.h" />
+    <ClInclude Include="src\Tests\Cantilever.h" />
+    <ClInclude Include="src\Tests\Car.h" />
+    <ClInclude Include="src\Tests\Chain.h" />
+    <ClInclude Include="src\Tests\CharacterCollision.h" />
+    <ClInclude Include="src\Tests\CollisionFiltering.h" />
+    <ClInclude Include="src\Tests\CollisionProcessing.h" />
+    <ClInclude Include="src\Tests\CompoundShapes.h" />
+    <ClInclude Include="src\Tests\Confined.h" />
+    <ClInclude Include="src\Tests\ContinuousTest.h" />
+    <ClInclude Include="src\Tests\DistanceTest.h" />
+    <ClInclude Include="src\Tests\Dominos.h" />
+    <ClInclude Include="src\Tests\DumpShell.h" />
+    <ClInclude Include="src\Tests\DynamicTreeTest.h" />
+    <ClInclude Include="src\Tests\EdgeShapes.h" />
+    <ClInclude Include="src\Tests\EdgeTest.h" />
+    <ClInclude Include="src\Tests\Gears.h" />
+    <ClInclude Include="src\Tests\OneSidedPlatform.h" />
+    <ClInclude Include="src\Tests\Pinball.h" />
+    <ClInclude Include="src\Tests\PolyCollision.h" />
+    <ClInclude Include="src\Tests\PolyShapes.h" />
+    <ClInclude Include="src\Tests\Prismatic.h" />
+    <ClInclude Include="src\Tests\Pulleys.h" />
+    <ClInclude Include="src\Tests\Pyramid.h" />
+    <ClInclude Include="src\Tests\RayCast.h" />
+    <ClInclude Include="src\Tests\Revolute.h" />
+    <ClInclude Include="src\Tests\Rope.h" />
+    <ClInclude Include="src\Tests\RopeJoint.h" />
+    <ClInclude Include="src\Tests\SensorTest.h" />
+    <ClInclude Include="src\Tests\ShapeEditing.h" />
+    <ClInclude Include="src\Tests\SliderCrank.h" />
+    <ClInclude Include="src\Tests\SphereStack.h" />
+    <ClInclude Include="src\Tests\TheoJansen.h" />
+    <ClInclude Include="src\Tests\Tiles.h" />
+    <ClInclude Include="src\Tests\TimeOfImpact.h" />
+    <ClInclude Include="src\Tests\Tumbler.h" />
+    <ClInclude Include="src\Tests\VaryingFriction.h" />
+    <ClInclude Include="src\Tests\VaryingRestitution.h" />
+    <ClInclude Include="src\Tests\VerticalStack.h" />
+    <ClInclude Include="src\Tests\Web.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46}</ProjectGuid>
@@ -54,12 +106,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>./lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Box2D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Box2D.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;freeglut_static.lib;glui.lib;winmm.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
