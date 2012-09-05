@@ -9,6 +9,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{52d8e5f2-e090-4e44-a864-5efd91ba0f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{7e7ad6c6-5473-4f84-a000-0da222223a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{bc03da2e-29e8-401d-886d-29d483f20db8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tests\TestEntries.cpp">
@@ -165,6 +174,21 @@
     </ClInclude>
     <ClInclude Include="src\Framework\Test.h">
       <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="rect.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="capsule.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="testing.h">
+      <Filter>Model</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

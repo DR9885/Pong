@@ -17,6 +17,10 @@
     <ClCompile Include="src\Tests\TestEntries.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="capsule.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="rect.h" />
+    <ClInclude Include="testing.h" />
     <ClInclude Include="src\Framework\Render.h" />
     <ClInclude Include="src\Framework\Test.h" />
     <ClInclude Include="src\Tests\AddPair.h" />
@@ -64,6 +68,7 @@
     <ClInclude Include="src\Tests\VaryingRestitution.h" />
     <ClInclude Include="src\Tests\VerticalStack.h" />
     <ClInclude Include="src\Tests\Web.h" />
+    <ClInclude Include="vector2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46}</ProjectGuid>

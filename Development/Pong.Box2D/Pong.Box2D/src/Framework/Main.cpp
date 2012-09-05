@@ -16,6 +16,7 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
+#include "testing.h"
 #include "Render.h"
 #include "Test.h"
 #include "glui/glui.h"

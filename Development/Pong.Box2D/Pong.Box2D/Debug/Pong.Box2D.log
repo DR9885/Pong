@@ -1,20 +1,14 @@
-﻿Build started 9/4/2012 7:17:31 PM.
+﻿Build started 9/4/2012 9:47:24 PM.
      1>Project "C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Pong.Box2D\Pong.Box2D.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\Pong.Box2D.unsuccessfulbuild".
+         Creating "Debug\Pong.Box2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Framework\Main.cpp src\Framework\Render.cpp src\Framework\Test.cpp src\Tests\TestEntries.cpp
-         TestEntries.cpp
-         Test.cpp
-         Render.cpp
-     1>src\Framework\Render.cpp(161): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Framework\Main.cpp
          Main.cpp
-     1>src\Framework\Main.cpp(368): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\Framework\Main.cpp(369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
-         Generating Code...
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Pong.Box2D.exe.embed.manifest.res" Debug\Pong.Box2D_manifest.rc 
+         All outputs are up-to-date.
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib freeglut_static.lib glui.lib winmm.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pong.Box2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.lib" /MACHINE:X86 Debug\Pong.Box2D.exe.embed.manifest.res
          Debug\Main.obj
@@ -22,15 +16,10 @@
          Debug\Test.obj
          Debug\TestEntries.obj
        Manifest:
-         Deleting file "Debug\Pong.Box2D.exe.embed.manifest".
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Pong.Box2D.exe.embed.manifest" /manifest Debug\Pong.Box2D.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Pong.Box2D.exe.embed.manifest.res" Debug\Pong.Box2D_manifest.rc 
+         All outputs are up-to-date.
        LinkEmbedManifest:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib freeglut_static.lib glui.lib winmm.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pong.Box2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.lib" /MACHINE:X86 Debug\Pong.Box2D.exe.embed.manifest.res
-         Debug\Main.obj
-         Debug\Render.obj
-         Debug\Test.obj
-         Debug\TestEntries.obj
+         All outputs are up-to-date.
          Pong.Box2D.vcxproj -> C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.exe
        FinalizeBuildStatus:
          Deleting file "Debug\Pong.Box2D.unsuccessfulbuild".
@@ -39,4 +28,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:12.92
+Time Elapsed 00:00:01.66
