@@ -1,0 +1,96 @@
+
+
+
+------ Controller
+
+    -- user input
+
+Player
+
+- KeyInput
+- 
+    -- Physics
+    -- Time
+
+
+
+
+----- View
+
+2D Sphere
+2D Capsules
+Score Board - Font
+Wall Divider
+
+------ Model
+App 
+- 0,0 World Positon
+- Wall[] Walls
+- Vector2 Position
+- Score
+- Time
+- 
+
+Goal
+- Trigger 
+
+Wall 
+- Collider Walls
+
+Paddles
+- Speed
+- Collider Body
+- Vector2 Position
+
+
+Ball
+- Speed
+- Collider Body
+- Vector2 Position
+
+
+
+/// Trigger ///
+Capsule Collider
+- Capsule Bounds
+
+Circle Collider
+- Circle Bounds
+
+Rect Collider
+- Rect Bounds
+
+
+/// Trigger ///
+Capsule Trigger
+- Capsule Bounds
+
+Circle Trigger
+- Circle Bounds
+
+Rect Trigger
+- Rect Bounds
+
+
+
+
+
+
+Capsule
+- Vector2 Position
+- Circle [2] 
+- Rect
+
+Circle
+- Vector2 Position
+- int radius
+
+Rect
+- Vector2 Position
+- int width
+- int height
+
+Vector2
+- int X
+- int y
+
