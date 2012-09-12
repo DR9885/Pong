@@ -13,23 +13,31 @@ Player
     -- Time
 
 
+App 
+- 0,0 World Positon
+- Wall[] Walls
+- Vector2 Position
+- 
+
+
+Score Board
 
 
 ----- View
 
 2D Sphere
 2D Capsules
-Score Board - Font
+Score Board
 Wall Divider
+Score - Font
+
 
 ------ Model
-App 
-- 0,0 World Positon
-- Wall[] Walls
-- Vector2 Position
-- Score
-- Time
-- 
+Score Board
+- Rect
+
+player
+- int score
 
 Goal
 - Trigger 

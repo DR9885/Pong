@@ -350,6 +350,16 @@ static void SingleStep(int)
 
 int main(int argc, char** argv)
 {
+
+	const vector2* v1 = vector2::cross(new vector2(), new vector2());
+
+
+
+
+
+
+
+
 	testCount = 0;
 	while (g_testEntries[testCount].createFcn != NULL)
 	{
