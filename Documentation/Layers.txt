@@ -58,7 +58,7 @@ Ball
 
 
 
-/// Trigger ///
+/// Collider ///
 Capsule Collider
 - Capsule Bounds
 

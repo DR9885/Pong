@@ -19,8 +19,8 @@ public:
 		height = h;
 		width = w;
 	    middle = rect(height*2/3, width, position.x, position.y);
-	    circle1 = circle(height*1/4, position.x, position.y+1/2*height);
-	    circle2 = circle(height*1/4, position.x, position.y-1/2*height);
+	    circle1 = circle(width*1/2, position.x, position.y+1/2*height);
+	    circle2 = circle(width*1/2, position.x, position.y-1/2*height);
 	}
 
 private:
