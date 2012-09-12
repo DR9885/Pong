@@ -4,6 +4,8 @@
 #ifndef VECTOR2_H
 #define VECTOR2_H
 
+#include <math.h>
+
 class vector2 {
 public:
 	real x;  //true center x
@@ -28,6 +30,11 @@ public:
 	static const vector2* ONE()   { return new vector2( 1,  1); }
 	static const vector2* ZERO()  { return new vector2( 0,  0); }
 
+	static const vector2* normalize(const vector2 *v1) {
+		real length = sqrt(v1->x*v1->x + v1->y*v1->y);
+		real x = v1->x/length, y = v1->y/length;
+		return new vector2(x,y);
+	}
 	static const real dot(const vector2 *v1, const vector2 *v2) { return (v1->x * v2->x) + (v1->y * v2->y); }
 	static const vector2* cross(const vector2 *v1, const vector2 *v2) { return new vector2(v1->y, -v2->x); }
 
