@@ -16,11 +16,11 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "testing.h"
+#include "stdafx.h"
+#include "App.h"
 #include "Render.h"
 #include "Test.h"
 #include "glui/glui.h"
-
 #include <cstdio>
 using namespace std;
 
@@ -351,13 +351,7 @@ static void SingleStep(int)
 int main(int argc, char** argv)
 {
 
-	const vector2* v1 = vector2::cross(new vector2(), new vector2());
-
-
-
-
-
-
+	App* app = new App();
 
 
 	testCount = 0;

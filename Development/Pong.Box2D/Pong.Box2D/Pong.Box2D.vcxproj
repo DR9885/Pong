@@ -11,16 +11,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="App.cpp" />
     <ClCompile Include="src\Framework\Main.cpp" />
     <ClCompile Include="src\Framework\Render.cpp" />
     <ClCompile Include="src\Framework\Test.cpp" />
     <ClCompile Include="src\Tests\TestEntries.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="App.h" />
     <ClInclude Include="capsule.h" />
     <ClInclude Include="circle.h" />
     <ClInclude Include="rect.h" />
-    <ClInclude Include="testing.h" />
     <ClInclude Include="src\Framework\Render.h" />
     <ClInclude Include="src\Framework\Test.h" />
     <ClInclude Include="src\Tests\AddPair.h" />
@@ -68,6 +70,8 @@
     <ClInclude Include="src\Tests\VaryingRestitution.h" />
     <ClInclude Include="src\Tests\VerticalStack.h" />
     <ClInclude Include="src\Tests\Web.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TimeManager.h" />
     <ClInclude Include="vector2.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -105,8 +109,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>Create</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>

@@ -16,6 +16,8 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
+
+#include "stdafx.h"
 #include "../Framework/Test.h"
 #include "../Framework/Render.h"
 

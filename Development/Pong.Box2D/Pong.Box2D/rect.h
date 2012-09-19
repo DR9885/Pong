@@ -1,9 +1,9 @@
-/*rectangle */
 #pragma once
 
 #ifndef RECT_H
 #define RECT_H
 
+/*rectangle bound */
 class rect {
 public:
 	real height, width;
@@ -30,9 +30,6 @@ public:
 		if(point == 0) return false;
 
 		real offsetX = width*0.5, offsetY = height*0.5;
-
-		// Distance Check
-		// TODO: ADVANCE Check Distance, Ensure object is in freaking vacinity! btch.
 
 		// Bounds Check
 		bool isInX = position->x - offsetX > point->x && point->x < position->x + offsetX; // left && right
