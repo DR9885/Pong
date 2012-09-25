@@ -9,6 +9,12 @@ public:
 	vector2* position;
 	real radius;
 	circle();
+	
+	circle(real r, vector2* v) {
+		position = v;
+		radius = r;
+	}
+
 	circle(real r, real x, real y)
 	{
 		position = new vector2(x, y);

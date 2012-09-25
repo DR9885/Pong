@@ -11,6 +11,7 @@ public:
 
 	Ball() {
 		velocity = vector2::ZERO();
+		bounds = new circle(1, 0, 0);
 	}
 
 	void Start() {
@@ -19,7 +20,7 @@ public:
 	}
 
 	void Draw() {
-
+		
 	}
 };
 
@@ -28,7 +29,6 @@ public:
 	Player() { 
 
 	}
-
 };
 
 

@@ -7,17 +7,16 @@
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:rect.h" caret="0" fromTop="0" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:vector2.h" caret="257" fromTop="16" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.h" caret="60" fromTop="3" />
-    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.h" caret="128" fromTop="4" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Main.cpp" caret="935" fromTop="18" />
-    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.cpp" caret="90" fromTop="4" />
-    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.cpp" caret="18" fromTop="1" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TestEntries.cpp" caret="937" fromTop="19" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Test.cpp" caret="937" fromTop="19" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Render.cpp" caret="937" fromTop="19" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:stdafx.h" caret="0" fromTop="0" />
+    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.cpp" caret="0" fromTop="0" />
+    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.h" caret="0" fromTop="0" />
+    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.cpp" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
-    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.h" caret="96" fromTop="10" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.h" caret="96" fromTop="4" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.h" caret="192" fromTop="23" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Main.cpp" caret="1036" fromTop="25" />
@@ -39,13 +38,14 @@
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:rect.h" caret="0" fromTop="0" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:rect.h" caret="67" fromTop="5" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.h" caret="60" fromTop="3" />
-    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.cpp" caret="49" fromTop="3" />
-    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.cpp" caret="18" fromTop="1" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.h" caret="128" fromTop="4" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TestEntries.cpp" caret="937" fromTop="19" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Test.cpp" caret="937" fromTop="19" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Render.cpp" caret="937" fromTop="19" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Main.cpp" caret="1017" fromTop="21" />
     <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:Main.cpp" caret="935" fromTop="18" />
+    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:App.cpp" caret="21" fromTop="1" />
+    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.cpp" caret="49" fromTop="2" />
+    <File id="1B4B28FF-4F62-48A0-BD3C-A5E44D7DBB46/f:TimeManager.cpp" caret="19" fromTop="0" />
   </RecentEdits>
 </RecentFiles>

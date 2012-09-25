@@ -12,7 +12,7 @@ public:
 	circle circle1;
 	circle circle2;
 	capsule();
-	capsule(int h, int w, int x, int y)
+	capsule(real h, real w, real x, real y)
 	{
 		position.x = x;
 		position.y = y;
