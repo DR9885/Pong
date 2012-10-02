@@ -202,5 +202,11 @@
     <ClInclude Include="stdafx.h">
       <Filter>Controller</Filter>
     </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

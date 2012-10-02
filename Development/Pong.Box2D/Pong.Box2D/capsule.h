@@ -6,23 +6,28 @@
 
 class capsule {
 public:
-	int height, width;
-	vector2 position;
-	rect middle;
-	circle circle1;
-	circle circle2;
+	real height, width;
+	vector2* position;
+	rect* middle;
+	circle* circle1;
+	circle* circle2;
 	capsule();
 	capsule(real h, real w, real x, real y)
 	{
-		position.x = x;
-		position.y = y;
+		position= new vector2(x,y);
 		height = h;
 		width = w;
-	    middle = rect(height*2/3, width, position.x, position.y);
-	    circle1 = circle(width*1/2, position.x, position.y+1/2*height);
-	    circle2 = circle(width*1/2, position.x, position.y-1/2*height);
+	    middle = new rect(height*2/3, width, x, y);
+	    circle1 = new circle(width*1/2, x, y+1/2*height);
+	    circle2 = new circle(width*1/2, x, y-1/2*height);
 	}
 
+	~capsule(){
+		delete position;
+		delete middle;
+		delete circle1;
+		delete circle2;
+	}
 private:
 };
 

@@ -4,7 +4,7 @@
 #ifndef STDFX_H
 #define STDFX_H
 
-// TODO: Move 
+//base
 #include <iostream>
 #include <string>
 #include <math.h>
@@ -16,10 +16,16 @@ using namespace std;
 typedef float real;
 
 
-#include "TimeManager.h"
+//model
 #include "vector2.h"
 #include "rect.h"
 #include "circle.h"
 #include "capsule.h"
+
+
+//controller
+#include "ball.h"
+#include "player.h"
+#include "TimeManager.h"
 
 #endif

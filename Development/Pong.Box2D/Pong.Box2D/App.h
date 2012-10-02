@@ -4,32 +4,9 @@
 #ifndef APP_H
 #define APP_H
 
-class Ball {
-public:
-	vector2* velocity;
-	circle* bounds;
 
-	Ball() {
-		velocity = vector2::ZERO();
-		bounds = new circle(1, 0, 0);
-	}
 
-	void Start() {
-		velocity->x = 0;
-		velocity->y = 0;
-	}
 
-	void Draw() {
-		
-	}
-};
-
-class Player { 
-public:
-	Player() { 
-
-	}
-};
 
 
 class App {
@@ -41,10 +18,16 @@ public:
 		b = new Ball();	
 	}
 
+	bool IsGameOver();  //tests to see if the game is over
+
+
 	// Ball
 	// Player 1
 	// Player 2
 
+	~App() {
+		delete b;
+	}
 };
 
 #endif

@@ -26,6 +26,9 @@ public:
 		cout<<vector2::distance(position, point)<<endl;
 		return vector2::distance(position, point) <= radius;
 	}
+	~circle(){
+		delete position;
+	}
 private:
 };
 

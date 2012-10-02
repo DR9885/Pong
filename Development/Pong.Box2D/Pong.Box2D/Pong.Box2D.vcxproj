@@ -20,8 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="ball.h" />
     <ClInclude Include="capsule.h" />
     <ClInclude Include="circle.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="rect.h" />
     <ClInclude Include="src\Framework\Render.h" />
     <ClInclude Include="src\Framework\Test.h" />

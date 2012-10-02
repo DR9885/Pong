@@ -29,7 +29,7 @@ public:
 	bool IsWithin(const vector2* point) {
 		if(point == 0) return false;
 
-		real offsetX = width*0.5, offsetY = height*0.5;
+		real offsetX = width*(real)0.5f, offsetY = height*(real)0.5;
 
 		// Bounds Check
 		bool isInX = position->x - offsetX > point->x && point->x < position->x + offsetX; // left && right
