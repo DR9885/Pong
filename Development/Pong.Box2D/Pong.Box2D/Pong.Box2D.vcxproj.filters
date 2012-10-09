@@ -181,18 +181,6 @@
     <ClInclude Include="src\Framework\Test.h">
       <Filter>Framework</Filter>
     </ClInclude>
-    <ClInclude Include="vector2.h">
-      <Filter>Model</Filter>
-    </ClInclude>
-    <ClInclude Include="rect.h">
-      <Filter>Model</Filter>
-    </ClInclude>
-    <ClInclude Include="circle.h">
-      <Filter>Model</Filter>
-    </ClInclude>
-    <ClInclude Include="capsule.h">
-      <Filter>Model</Filter>
-    </ClInclude>
     <ClInclude Include="App.h">
       <Filter>Controller</Filter>
     </ClInclude>
@@ -202,11 +190,32 @@
     <ClInclude Include="stdafx.h">
       <Filter>Controller</Filter>
     </ClInclude>
-    <ClInclude Include="ball.h">
+    <ClInclude Include="IMoveBumper.h">
       <Filter>Controller</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
+    <ClInclude Include="Player.h">
       <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Bumper.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollider.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Model</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

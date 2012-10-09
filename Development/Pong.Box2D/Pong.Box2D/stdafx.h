@@ -17,15 +17,17 @@ typedef float real;
 
 
 //model
-#include "vector2.h"
-#include "rect.h"
-#include "circle.h"
-#include "capsule.h"
-
+#include "Vector2.h"
+#include "Rect.h"
+#include "Circle.h"
+#include "CapsuleCollider.h"
+#include "Transform.h"
+#include "Bumper.h"
+#include "Ball.h"
 
 //controller
-#include "ball.h"
-#include "player.h"
+#include "Player.h"
+#include "IMoveBumper.h"
 #include "TimeManager.h"
 
 #endif

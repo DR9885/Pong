@@ -1,24 +1,26 @@
-﻿Build started 9/25/2012 8:54:30 PM.
+﻿Build started 10/2/2012 8:45:59 PM.
      1>Project "C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Pong.Box2D\Pong.Box2D.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\Pong.Box2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\Pong.Box2D.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Pong.Box2D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp src\Framework\Main.cpp src\Framework\Render.cpp src\Framework\Test.cpp src\Tests\TestEntries.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Pong.Box2D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp TimeManager.cpp src\Framework\Main.cpp src\Framework\Render.cpp src\Framework\Test.cpp src\Tests\TestEntries.cpp
          TestEntries.cpp
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\Player.h(11): warning C4101: 'score' : unreferenced local variable
      1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\TimeManager.h(18): warning C4244: 'return' : conversion from 'time_t' to 'real', possible loss of data
      1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\TimeManager.h(35): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
          Test.cpp
          Render.cpp
      1>src\Framework\Render.cpp(163): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
          Main.cpp
      1>src\Framework\Main.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         TimeManager.cpp
          App.cpp
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib freeglut_static.lib glui.lib winmm.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pong.Box2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.lib" /MACHINE:X86 Debug\Pong.Box2D.exe.embed.manifest.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib freeglut_static.lib glui.lib winmm.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pong.Box2D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Debug\Pong.Box2D.lib" /MACHINE:X86 Debug\Pong.Box2D.exe.embed.manifest.res
          Debug\App.obj
          Debug\Main.obj
          Debug\Render.obj
@@ -38,4 +40,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.62
+Time Elapsed 00:00:03.81
