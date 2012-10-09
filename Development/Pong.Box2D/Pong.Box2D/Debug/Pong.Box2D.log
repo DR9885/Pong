@@ -1,7 +1,7 @@
-﻿Build started 10/2/2012 8:45:59 PM.
+﻿Build started 10/9/2012 7:14:33 PM.
      1>Project "C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Pong.Box2D\Pong.Box2D.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\Pong.Box2D.unsuccessfulbuild".
+         Creating "Debug\Pong.Box2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Pong.Box2D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp TimeManager.cpp src\Framework\Main.cpp src\Framework\Render.cpp src\Framework\Test.cpp src\Tests\TestEntries.cpp
          TestEntries.cpp
@@ -40,4 +40,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.81
+Time Elapsed 00:00:06.94

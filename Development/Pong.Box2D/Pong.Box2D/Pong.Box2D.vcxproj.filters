@@ -190,9 +190,6 @@
     <ClInclude Include="stdafx.h">
       <Filter>Controller</Filter>
     </ClInclude>
-    <ClInclude Include="IMoveBumper.h">
-      <Filter>Controller</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Controller</Filter>
     </ClInclude>
@@ -216,6 +213,9 @@
     </ClInclude>
     <ClInclude Include="Ball.h">
       <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="iController.h">
+      <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

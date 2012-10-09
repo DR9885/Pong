@@ -27,7 +27,6 @@ typedef float real;
 
 //controller
 #include "Player.h"
-#include "IMoveBumper.h"
 #include "TimeManager.h"
 
 #endif

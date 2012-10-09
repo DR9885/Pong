@@ -24,7 +24,7 @@
     <ClInclude Include="Bumper.h" />
     <ClInclude Include="CapsuleCollider.h" />
     <ClInclude Include="Circle.h" />
-    <ClInclude Include="IMoveBumper.h" />
+    <ClInclude Include="iController.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="src\Framework\Render.h" />

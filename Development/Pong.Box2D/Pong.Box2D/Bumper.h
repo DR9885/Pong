@@ -3,7 +3,7 @@
 #ifndef BUMPER_H
 #define BUMPER_H
 
-class Bumper : public IMoveBumper {
+class Bumper {
 public:
 	const Transform* transform;
 	const capsule* Collider;
