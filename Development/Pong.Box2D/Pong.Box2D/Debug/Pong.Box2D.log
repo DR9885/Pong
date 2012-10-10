@@ -1,19 +1,26 @@
-﻿Build started 10/9/2012 7:14:33 PM.
+﻿Build started 10/9/2012 10:31:35 PM.
      1>Project "C:\Users\Josh\Documents\Projects\Pong\Development\Pong.Box2D\Pong.Box2D\Pong.Box2D.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Pong.Box2D.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Pong.Box2D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp TimeManager.cpp src\Framework\Main.cpp src\Framework\Render.cpp src\Framework\Test.cpp src\Tests\TestEntries.cpp
-         TestEntries.cpp
-     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\Player.h(11): warning C4101: 'score' : unreferenced local variable
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Pong.Box2D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp TimeManager.cpp src\Framework\Main.cpp src\Framework\Render.cpp src\Framework\Test.cpp src\Tests\TestEntries.cpp testJosh.cpp
+         testJosh.cpp
      1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\TimeManager.h(18): warning C4244: 'return' : conversion from 'time_t' to 'real', possible loss of data
      1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\TimeManager.h(35): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\ArrowInputController.h(11): warning C4482: nonstandard extension used: enum 'MoveType' used in qualified name
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\CpuController.h(14): warning C4482: nonstandard extension used: enum 'MoveType' used in qualified name
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\CpuController.h(20): warning C4482: nonstandard extension used: enum 'MoveType' used in qualified name
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\CpuController.h(20): warning C4482: nonstandard extension used: enum 'MoveType' used in qualified name
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\CpuController.h(20): warning C4482: nonstandard extension used: enum 'MoveType' used in qualified name
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\KeyboardInputController.h(11): warning C4482: nonstandard extension used: enum 'MoveType' used in qualified name
+     1>c:\users\josh\documents\projects\pong\development\pong.box2d\pong.box2d\Player.h(11): warning C4101: 'score' : unreferenced local variable
+         TestEntries.cpp
          Test.cpp
          Render.cpp
      1>src\Framework\Render.cpp(163): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
          Main.cpp
-     1>src\Framework\Main.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\Framework\Main.cpp(375): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
          TimeManager.cpp
          App.cpp
@@ -26,6 +33,7 @@
          Debug\Render.obj
          Debug\Test.obj
          Debug\TestEntries.obj
+         Debug\testJosh.obj
          Debug\TimeManager.obj
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Pong.Box2D.exe.embed.manifest" /manifest Debug\Pong.Box2D.exe.intermediate.manifest
@@ -40,4 +48,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.94
+Time Elapsed 00:00:04.34

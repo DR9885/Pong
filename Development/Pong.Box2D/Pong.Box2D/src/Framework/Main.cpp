@@ -348,9 +348,11 @@ static void SingleStep(int)
 	settings.singleStep = 1;
 }
 
+void testappJosh();
+
 int main(int argc, char** argv)
 {
-
+	testappJosh();
 	App* app = new App();
 
 

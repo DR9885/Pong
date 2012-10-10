@@ -38,6 +38,9 @@
     <ClCompile Include="TimeManager.cpp">
       <Filter>Controller</Filter>
     </ClCompile>
+    <ClCompile Include="testJosh.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tests\AddPair.h">
@@ -214,7 +217,16 @@
     <ClInclude Include="Ball.h">
       <Filter>Model</Filter>
     </ClInclude>
-    <ClInclude Include="iController.h">
+    <ClInclude Include="IController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowInputController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInputController.h">
       <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
