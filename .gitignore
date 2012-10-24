@@ -26,9 +26,9 @@
 *.unsuccessfulbuild
 ipch/
 obj/
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
+*[Bb]in
+*[Dd]ebug*/
+*[Rr]elease*/
 Ankh.NoLoad
 
 #MonoDevelop
@@ -36,7 +36,7 @@ Ankh.NoLoad
 *.userprefs
 
 #Tooling
-_ReSharper*/
+*_ReSharper*/
 *.resharper
 [Tt]est[Rr]esult*
 

@@ -17,7 +17,6 @@
     <ClCompile Include="src\Framework\Render.cpp" />
     <ClCompile Include="src\Framework\Test.cpp" />
     <ClCompile Include="src\Tests\TestEntries.cpp" />
-    <ClCompile Include="testJosh.cpp" />
     <ClCompile Include="TimeManager.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -26,15 +25,8 @@
     <ClInclude Include="Bumper.h" />
     <ClInclude Include="CapsuleCollider.h" />
     <ClInclude Include="Circle.h" />
-<<<<<<< HEAD
     <ClInclude Include="iController.h" />
     <ClInclude Include="Input.h" />
-=======
-    <ClInclude Include="CpuController.h" />
-    <ClInclude Include="IController.h" />
-    <ClInclude Include="ArrowInputController.h" />
-    <ClInclude Include="KeyboardInputController.h" />
->>>>>>> 776f7c14331d6d2d542bb0cc8f1869c4be34236a
     <ClInclude Include="Player.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="src\Framework\Render.h" />
