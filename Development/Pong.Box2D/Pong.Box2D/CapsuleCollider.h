@@ -11,7 +11,14 @@ public:
 	rect* middle;
 	circle* circle1;
 	circle* circle2;
-	capsule();
+	capsule(){
+		position= vector2::ONE();
+		height = 1;
+		width = 1;
+	    middle = new rect(height*2/3, width, 1, 1);
+	    circle1 = new circle(width*1/2, 1, 1+1/2*height);
+	    circle2 = new circle(width*1/2, 1, 1-1/2*height);
+	}
 	capsule(real h, real w, real x, real y)
 	{
 		position= new vector2(x,y);

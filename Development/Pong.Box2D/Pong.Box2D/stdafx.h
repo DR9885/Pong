@@ -30,11 +30,22 @@ typedef float real;
 #include "Circle.h"
 #include "CapsuleCollider.h"
 #include "Transform.h"
-#include "Bumper.h"
 #include "Ball.h"
 
 //controller
-#include "Player.h"
+//--global states
 #include "TimeManager.h"
+//--controls
+#include "IController.h"
+#include "ArrowInputController.h"
+#include "CpuController.h"
+#include "KeyboardInputController.h"
+//--board
+#include "Player.h"
+#include "Bumper.h"
+//--game
+#include "App.h"
+
+
 
 #endif

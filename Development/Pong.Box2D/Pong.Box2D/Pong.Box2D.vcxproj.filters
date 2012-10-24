@@ -38,7 +38,11 @@
     <ClCompile Include="TimeManager.cpp">
       <Filter>Controller</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Input.cpp">
+=======
+    <ClCompile Include="testJosh.cpp">
+>>>>>>> 776f7c14331d6d2d542bb0cc8f1869c4be34236a
       <Filter>Controller</Filter>
     </ClCompile>
   </ItemGroup>
@@ -217,7 +221,16 @@
     <ClInclude Include="Ball.h">
       <Filter>Model</Filter>
     </ClInclude>
-    <ClInclude Include="iController.h">
+    <ClInclude Include="IController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowInputController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInputController.h">
       <Filter>Controller</Filter>
     </ClInclude>
     <ClInclude Include="Input.h">
