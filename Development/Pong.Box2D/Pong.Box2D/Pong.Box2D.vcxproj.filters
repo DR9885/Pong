@@ -38,6 +38,9 @@
     <ClCompile Include="TimeManager.cpp">
       <Filter>Controller</Filter>
     </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tests\AddPair.h">
@@ -215,6 +218,9 @@
       <Filter>Model</Filter>
     </ClInclude>
     <ClInclude Include="iController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
       <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>

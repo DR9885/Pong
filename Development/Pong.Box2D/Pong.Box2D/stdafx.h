@@ -4,6 +4,12 @@
 #ifndef STDFX_H
 #define STDFX_H
 
+// GFX
+#include "glui/glui.h"
+#include <windows.h>	   // Standard header for MS Windows applications
+#include <GL/gl.h>		   // Open Graphics Library (OpenGL) header
+#include <GL/glut.h>	   // The GL Utility Toolkit (GLUT) Header
+
 //base
 #include <iostream>
 #include <string>
@@ -12,9 +18,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <map>
 using namespace std;
 typedef float real;
 
+#include "Input.h"
 
 //model
 #include "Vector2.h"
