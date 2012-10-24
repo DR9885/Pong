@@ -37,12 +37,12 @@ typedef float real;
 #include "TimeManager.h"
 //--controls
 #include "IController.h"
-#include "ArrowInputController.h"
-#include "CpuController.h"
-#include "KeyboardInputController.h"
+//#include "ArrowInputController.h"
+//#include "CpuController.h"
+//#include "KeyboardInputController.h"
 //--board
-#include "Player.h"
-#include "Bumper.h"
+//#include "Player.h"
+//#include "Bumper.h"
 //--game
 #include "App.h"
 

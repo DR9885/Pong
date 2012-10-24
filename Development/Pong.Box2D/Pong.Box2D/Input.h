@@ -5,16 +5,17 @@
 #define INPUT_H
 /* Singleton */ 
 
-enum KeyCode {
-	NONE,
-	LEFT	= GLUT_KEY_LEFT, 
-	RIGHT	= GLUT_KEY_RIGHT,
-	UP		= GLUT_KEY_UP,
-	DOWN	= GLUT_KEY_DOWN
-};
 
 class Input {
 public: 
+	enum KeyCode {
+		NONE,
+		LEFT	= GLUT_KEY_LEFT, 
+		RIGHT	= GLUT_KEY_RIGHT,
+		UP		= GLUT_KEY_UP,
+		DOWN	= GLUT_KEY_DOWN
+	};
+
 	static Input* Instance() {
 		/* Lazy Instantiation */
 		if(instance == 0)
