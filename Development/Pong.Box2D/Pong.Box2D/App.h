@@ -25,7 +25,7 @@ public:
 		glutCreateWindow( name);								// create Window
 		glutDisplayFunc(Draw);									// register Display Function
 		glutIdleFunc( Update );								// register Idle Function
-		glutKeyboardFunc( keyboard );								// register Keyboard Handler
+		glutKeyboardFunc( Input::KeyDown );								// register Keyboard Handler
 		initialize();
 		glutMainLoop();		
 	}

@@ -32,7 +32,11 @@ public:
 
 		return false;
 	}
-
+	
+	
+	static GLvoid KeyDown(unsigned char key, int x, int y) {
+		cout<<key;
+	}
 
 
 private:
@@ -51,20 +55,16 @@ private:
 		//glutSpecialUpFunc(KeyUpSpecial);
 	}
 
-	
-	static void KeyDown(unsigned char key, int x, int y) {
+
+	static GLvoid KeyUp(unsigned key, int x, int y) {
+
+	}
+
+	static GLvoid KeyDownSpecial(int key, int x, int y) {
 		cout<<"down";
 	}
 
-	static void KeyUp(unsigned key, int x, int y) {
-
-	}
-
-	static void KeyDownSpecial(int key, int x, int y) {
-		cout<<"down";
-	}
-
-	static void KeyUpSpecial(int key, int x, int y) {
+	static GLvoid KeyUpSpecial(int key, int x, int y) {
 
 	}
 };
