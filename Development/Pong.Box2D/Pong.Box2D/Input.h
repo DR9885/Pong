@@ -23,11 +23,11 @@ public:
 		return instance;
 	}
 
-	static bool GetKey(char c) {
+	static bool IsKeyPressed(char c) {
 		return false;
 	}
 
-	static bool GetKey(KeyCode keyCode) {
+	static bool IsKeyPressed(KeyCode keyCode) {
 		
 
 		return false;
@@ -35,19 +35,26 @@ public:
 	
 	
 	static GLvoid KeyDown(unsigned char key, int x, int y) {
-		cout<<key;
+		if(true) cout<<"Key Pressed: "<<key<<endl;
+		//if(Instance()->keys->)
+			Instance()->keys->push_back(key);
+		cout<<Instance()->keys->size();
+	}
+	
+	static GLvoid KeyUp(unsigned char key, int x, int y) {
+		if(true) cout<<"Key Released: "<<key<<endl;
+		Instance()->keys->remove(key);
 	}
 
-
 private:
-	map<int, int> *keys;
+	list<char> *keys;
 
 	static Input* instance;
 
 	Input& operator=(Input const&){}; // Assignment Operator 
 	Input(Input const&){}; // Copy Constructor
 	Input() {
-		keys = new map<int, int>();
+		keys = new list<char>();
 		
 		
 		//glutSpecialFunc(KeyDownSpecial);
@@ -56,12 +63,10 @@ private:
 	}
 
 
-	static GLvoid KeyUp(unsigned key, int x, int y) {
-
-	}
 
 	static GLvoid KeyDownSpecial(int key, int x, int y) {
-		cout<<"down";
+		if(true) cout<<"Key Released: "<<key<<endl;
+		Instance()->keys->remove(key);
 	}
 
 	static GLvoid KeyUpSpecial(int key, int x, int y) {

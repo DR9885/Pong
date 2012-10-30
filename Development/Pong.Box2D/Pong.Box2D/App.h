@@ -26,6 +26,7 @@ public:
 		glutDisplayFunc(Draw);									// register Display Function
 		glutIdleFunc( Update );								// register Idle Function
 		glutKeyboardFunc( Input::KeyDown );								// register Keyboard Handler
+		glutKeyboardUpFunc( Input::KeyUp );								// register Keyboard Handler
 		initialize();
 		glutMainLoop();		
 	}

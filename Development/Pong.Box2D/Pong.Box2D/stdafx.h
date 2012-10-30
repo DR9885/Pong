@@ -18,7 +18,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <map>
+#include <iostream>
+#include <list>
 using namespace std;
 typedef float real;
 
