@@ -1,4 +1,8 @@
-[submodule "Development/boost"]
-path = Development/boost
+[submodule "libs/boost"]
+path = libs/boost
 url = git://github.com/boost-lib/boost.git
+
+[submodule "libs/box2d"]
+path = libs/box2d
+url = git://github.com/ansman/box2d.git
 
