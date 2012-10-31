@@ -1,3 +1,4 @@
-[submodule "boost"]
-path = development/boost
+[submodule "Development/boost"]
+path = Development/boost
 url = git://github.com/boost-lib/boost.git
+
