@@ -21,6 +21,7 @@
 #include <iostream>
 #include <list>
 using namespace std;
+
 typedef float real;
 
 #include "Input.h"

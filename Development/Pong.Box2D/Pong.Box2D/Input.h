@@ -3,11 +3,12 @@
 
 #ifndef INPUT_H
 #define INPUT_H
+
 /* Singleton */ 
-
-
 class Input {
 public: 
+	friend class App;
+
 	enum KeyCode {
 		NONE,
 		LEFT	= GLUT_KEY_LEFT, 
@@ -16,62 +17,27 @@ public:
 		DOWN	= GLUT_KEY_DOWN
 	};
 
+private:
+	/* Lazy Instantiation */
+	static Input* instance;
 	static Input* Instance() {
-		/* Lazy Instantiation */
 		if(instance == 0)
 			instance = new Input();
 		return instance;
 	}
 
-	static bool IsKeyPressed(char c) {
-		return false;
-	}
-
-	static bool IsKeyPressed(KeyCode keyCode) {
-		
-
-		return false;
-	}
+	list<string> *keys;
 	
-	
-	static GLvoid KeyDown(unsigned char key, int x, int y) {
-		if(true) cout<<"Key Pressed: "<<key<<endl;
-		//if(Instance()->keys->)
-			Instance()->keys->push_back(key);
-		cout<<Instance()->keys->size();
-	}
-	
-	static GLvoid KeyUp(unsigned char key, int x, int y) {
-		if(true) cout<<"Key Released: "<<key<<endl;
-		Instance()->keys->remove(key);
-	}
-
-private:
-	list<char> *keys;
-
-	static Input* instance;
-
 	Input& operator=(Input const&){}; // Assignment Operator 
 	Input(Input const&){}; // Copy Constructor
 	Input() {
-		keys = new list<char>();
-		
-		
-		//glutSpecialFunc(KeyDownSpecial);
-
-		//glutSpecialUpFunc(KeyUpSpecial);
+		keys = new list<string>();
 	}
+	
+	static GLvoid KeyDown(unsigned char key, int x, int y);
+	static GLvoid KeyUp(unsigned char key, int x, int y);
 
-
-
-	static GLvoid KeyDownSpecial(int key, int x, int y) {
-		if(true) cout<<"Key Released: "<<key<<endl;
-		Instance()->keys->remove(key);
-	}
-
-	static GLvoid KeyUpSpecial(int key, int x, int y) {
-
-	}
+	static GLvoid KeyDownSpecial(int intKey, int x, int y);
+	static GLvoid KeyUpSpecial(int intKey, int x, int y) ;
 };
-
 #endif

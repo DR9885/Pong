@@ -11,8 +11,6 @@ private:
 	real width, height, z_near, z_far, field_of_view_angle;
 public:
 
-
-
 	App() {
 		name = "App";
 		width = 640.0f; 
@@ -25,10 +23,15 @@ public:
 		glutCreateWindow( name);								// create Window
 		glutDisplayFunc(Draw);									// register Display Function
 		glutIdleFunc( Update );								// register Idle Function
-		glutKeyboardFunc( Input::KeyDown );								// register Keyboard Handler
-		glutKeyboardUpFunc( Input::KeyUp );								// register Keyboard Handler
+
+		// register Keyboard Handler
+		glutKeyboardFunc( Input::KeyDown );
+		glutKeyboardUpFunc( Input::KeyUp );
+		glutSpecialFunc( Input::KeyDownSpecial );
+		glutSpecialUpFunc( Input::KeyUpSpecial );
+
 		initialize();
-		glutMainLoop();		
+		glutMainLoop();
 	}
 
 	bool IsGameOver();  //tests to see if the game is over

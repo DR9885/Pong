@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="EventManager.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="src\Framework\Main.cpp" />
     <ClCompile Include="src\Framework\Render.cpp" />
@@ -25,6 +26,7 @@
     <ClInclude Include="Bumper.h" />
     <ClInclude Include="CapsuleCollider.h" />
     <ClInclude Include="Circle.h" />
+    <ClInclude Include="EventManager.h" />
     <ClInclude Include="iController.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="Player.h" />

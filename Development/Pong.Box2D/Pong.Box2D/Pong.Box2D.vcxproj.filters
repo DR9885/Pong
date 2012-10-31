@@ -41,6 +41,9 @@
     <ClCompile Include="Input.cpp">
       <Filter>Controller</Filter>
     </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tests\AddPair.h">
@@ -221,6 +224,9 @@
       <Filter>Controller</Filter>
     </ClInclude>
     <ClInclude Include="Input.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
       <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
